@@ -3,7 +3,6 @@
 
 
 function w3_open() {
-    alert("Working");
     document.getElementById("mySidebar").style.display = "block";
     document.getElementById("myOverlay").style.display = "block";
 }
