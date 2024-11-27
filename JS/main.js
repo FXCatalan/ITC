@@ -1,7 +1,5 @@
 // Script to open and close sidebar
 
-
-
 function w3_open() {
     document.getElementById("mySidebar").style.display = "block";
     document.getElementById("myOverlay").style.display = "block";
