@@ -178,25 +178,6 @@ function newRow() {
     updateRows();
 }
 
-/*
-
-function removeLastPattern(htmlString) {
-    let startTag = "<tr>";
-    let endTag = "</tr>";
-  
-    let lastEndIndex = htmlString.lastIndexOf(endTag);
-    if (lastEndIndex === -1) return htmlString;
-  
-    let lastStartIndex = htmlString.lastIndexOf(startTag, lastEndIndex);
-    if (lastStartIndex === -1) return htmlString;
-  
-    let beforePattern = htmlString.substring(0, lastStartIndex); 
-    let afterPattern = htmlString.substring(lastEndIndex + endTag.length); 
-    return beforePattern + afterPattern; 
-}
-
-*/
-
 // Main
 
 (()=> {
