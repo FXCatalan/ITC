@@ -1,0 +1,46 @@
+.loopBox {
+	border-bottom: 1px solid rgba(131, 127, 127, 0.568);
+    padding: 1% 0%;
+}
+
+.loopText {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1%;
+}
+
+.loopHeader{
+	font-size: 150%;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.loopInput {
+	text-align: start;
+	width: 300px;
+}
+
+.inputLbl {
+	
+}
+
+.input {	
+	border: 1px solid #ccc; 
+    border-radius: 15px;    
+    padding: 10px;          
+    font-size: 16px;        
+}
+
+.inputConfirm {
+	align-self: center;
+	border: 1px solid #928d8d; 
+	border-radius: 15px;    
+	color: black;
+	background-color: #f5eded;
+	cursor: pointer;
+}
+
+.inputConfirm:hover {
+	background-color: #0a070c31;
+}

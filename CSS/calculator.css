@@ -1,0 +1,40 @@
+#body {
+	padding-top: 1%;
+}
+
+#calcInput {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+#inputLbl {
+	font-weight: bold;
+	font-size: 130%;
+}
+
+#input {	
+	border: 1px solid #ccc; 
+    border-radius: 15px;    
+    padding: 10px;          
+    font-size: 16px;
+	margin-top: 1%;        
+}
+
+#compute {
+	margin-top: 2%;
+	align-self: center;
+	border: 1px solid #928d8d; 
+	border-radius: 15px;    
+	color: black;
+	background-color: #f5eded;
+	cursor: pointer;
+}
+
+#compute:hover {
+	background-color: #0a070c31;
+}
+
+#taxText {
+	font-weight: bold;;
+}

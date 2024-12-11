@@ -1,0 +1,49 @@
+#payrollTable {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+  
+#payrollTable th,
+#payrollTable td {
+	border: 1px solid #000; 
+	padding: 10px; 
+	text-align: center;
+}
+#payrollTable {
+	border: 2px solid #333;
+}
+
+#payrollTable th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+#buttons {
+	border: dashed rgba(165, 164, 164, 0.781) 2px;
+	display: flex;
+	justify-content: center;
+	padding: 5px 0%;
+}
+
+.button {
+	align-self: center;
+	border-radius: 3px;
+	border: 1px solid #928d8d; 
+	color: black;
+	background-color: #ffffff;
+	cursor: pointer;
+	margin: 0% 1%;
+	font-weight: bold;
+}
+
+.button:hover {
+	background-color: #0a070c31;
+}
+
+.input {	
+	border: 1px solid #ccc; 
+    border-radius: 15px;    
+    font-size: 16px;
+	text-align: center;
+}

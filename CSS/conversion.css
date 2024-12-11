@@ -1,0 +1,36 @@
+.cnvrtBox {
+	border-bottom: 1px solid rgba(131, 127, 127, 0.568);
+    padding: 1% 0%;
+
+}
+
+.cnvrtText {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1%;
+}
+
+.cnvrtHeader{
+	font-size: 150%;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.cnvrtInput {
+	display: inline-flex;
+	flex-direction: column;
+	text-align: start;
+	width: 300px;
+}
+
+.inputLbl {
+	font-weight: bold;
+}
+
+.input {	
+	border: 1px solid #ccc; 
+    border-radius: 15px;    
+    padding: 10px;          
+    font-size: 16px;        
+}
